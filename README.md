@@ -1,9 +1,12 @@
-Here is a sample `README.md` for your Tower of Hanoi game project:
 
-```markdown
 # Tower of Hanoi Game
+![A graphical implementation of the classic Tower of Hanoi puzzle game using SFML.](Demo/Screenshot2.png)
 
-A graphical implementation of the classic Tower of Hanoi puzzle game using SFML.
+
+
+## About the Project
+
+We (Piyush Kurwade: [Piyush1148](https://github.com/Piyush1148), Aman Mehtar: [amanmprojects](https://github.com/amanmprojects), Aryan Koli: [Aryan2005-unq](https://github.com/Aryan2005-unq)) have created this as our Second Year Computer Graphics (CG) Course project.
 
 ## Getting Started
 
@@ -20,13 +23,14 @@ sudo apt update
 sudo apt install libsfml-dev
 ```
 
-For other Linux distributions or installation instructions for other operating systems, visit the official [SFML website](https://www.sfml-dev.org/).t
+For other Linux distributions or Operating System installation instructions for other operating systems, visit the official [SFML website](https://www.sfml-dev.org/).
+
 ### Compilation Instructions
 
 To compile the game, use the following command:
 
 ```bash
-g++ game.cpp
+g++ game.cpp -o tower_of_hanoi
 ```
 
 If you encounter any errors related to SFML, try the following command instead:
@@ -56,6 +60,3 @@ The Tower of Hanoi is a mathematical puzzle where the objective is to move a sta
 3. All disks must end up on a different rod than where they started.
 
 Enjoy the game!
-```
-
-This `README.md` covers the compilation instructions, SFML installation guidance, and a brief description of the game. Let me know if there's anything more you would like to include!
